@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5; }
+
+.primary-btn {
+  display: inline-block;
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  background: #678e3e;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none; }
+
+.service-btn {
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 0.6rem;
+  margin: 2rem 0; }
+
+.navbar {
+  background: #fff;
+  display: inline-block;
+  width: 300px;
+  height: 100vh;
+  padding-top: 2rem;
+  display: none; }
+
+.navbar ul {
+  list-style: none; }
+
+.navbar ul li {
+  margin: 1rem 0; }
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  padding-left: 1rem;
+  color: #a19d9d; }
+
+.navbar ul li:hover {
+  background-color: #678e3e;
+  color: #4fb34f; }
+
+#header {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero-img.jpg) no-repeat center center/cover;
+  min-height: calc(100vh + 5px);
+  position: relative;
+  border-bottom: 5px solid #678e3e;
+  background-attachment: fixed; }
+
+.showcase-content {
+  max-width: 1200px;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.showcase-content h2 {
+  font-family: "Grand Hotel", cursive;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+  text-transform: capitalize;
+  color: #678e3e; }
+
+.showcase-content h1 {
+  font-size: 4rem;
+  color: #fff;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 4px; }
+
+.showcase-btn {
+  display: inline-block;
+  background: #678e3e;
+  padding: 1.2rem 1.75rem;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 4px;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  cursor: pointer; }
+
+#skills {
+  display: flex;
+  background: #f1f5f8; }
+
+.card {
+  text-align: center;
+  padding: 3rem 0; }
+
+.card:hover {
+  background: #fff;
+  border-bottom: 5px solid #678e3e; }
+
+.card i {
+  font-size: 2rem;
+  color: #678e3e;
+  margin-bottom: 1rem; }
+
+.card-title {
+  margin: 0.75rem 0;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 4px; }
+
+#about {
+  display: flex;
+  padding: 6rem;
+  min-height: 80vh; }
+
+.about-img {
+  width: 50%; }
+
+.img {
+  max-width: 500px;
+  width: 100%;
+  object-fit: cover;
+  border: 5px solid #678e3e; }
+
+.about-content {
+  width: 50%;
+  padding: 0 2rem; }
+
+.about-content .title {
+  color: #678e3e;
+  font-family: "Grand Hotel", cursive;
+  font-size: 2.3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 4px; }
+
+.about-content h2 {
+  color: #333;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  letter-spacing: 4px; }
+
+.about-content p {
+  width: 400px;
+  word-spacing: 2px;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+  color: #777; }
+
+.products {
+  display: flex;
+  padding: 0 6rem;
+  background: #f1f5f8;
+  height: 550px; }
+
+.products .title {
+  color: #678e3e;
+  font-family: "Grand Hotel", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 4px; }
+
+.products h2 {
+  font-size: 2.2rem;
+  letter-spacing: 4px;
+  color: #222; }
+
+.product-content {
+  padding-top: 5rem; }
+
+.product-content .para {
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+.product-content p {
+  width: 350px;
+  color: #555;
+  font-size: 0.9rem; }
+
+.products img {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem; }
+
+.product {
+  margin: 1rem;
+  width: 300px;
+  padding: 5rem 0; }
+
+.product p {
+  font-family: "Grand Hotel", cursive;
+  color: #678e3e;
+  font-size: 1.1rem;
+  letter-spacing: 4px;
+  font-weight: bold; }
+
+.product-name {
+  letter-spacing: 4px;
+  font-weight: bold;
+  color: #222; }
+
+.services .section-heading {
+  text-align: center;
+  padding: 3rem; }
+
+.section-heading .title {
+  color: #678e3e;
+  font-family: "Grand Hotel", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 4px; }
+
+.section-heading h2 {
+  font-size: 2.2rem;
+  letter-spacing: 4px;
+  color: #222; }
+
+#service-card {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.service-card {
+  margin: 0 2rem;
+  background: #f1f5f8;
+  border-radius: 10px;
+  transition: all 0.4s linear; }
+
+.service-card:hover {
+  transform: scale(1.05); }
+
+.service-card img {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
+
+.service-card .center i {
+  color: #678e3e;
+  background: #a4ca7b;
+  padding: 1rem;
+  border-radius: 50%;
+  transform: translateY(-2.5rem); }
+
+.service-card .center {
+  text-align: center;
+  padding: 0 1rem; }
+
+.service-card .center h3 {
+  letter-spacing: 4px; }
+
+.service-card .center p {
+  color: #666;
+  padding-top: 1rem;
+  font-size: 0.94rem; }
