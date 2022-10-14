@@ -15,13 +15,18 @@ body {
   background: #678e3e;
   color: #fff;
   padding: 0.5rem 1rem;
-  border: none; }
+  border: none;
+  cursor: pointer; }
 
 .service-btn {
   border-radius: 5px;
   font-size: 10px;
   padding: 0.6rem;
-  margin: 2rem 0; }
+  margin: 2rem 0;
+  cursor: pointer; }
+
+.global-clr {
+  color: #678e3e; }
 
 .navbar {
   background: #fff;
@@ -268,3 +273,81 @@ body {
   color: #666;
   padding-top: 1rem;
   font-size: 0.94rem; }
+
+#contact {
+  display: flex;
+  background: #f1f5f8;
+  padding: 3rem 5rem; }
+
+.contact-detail {
+  width: 50%;
+  padding: 3rem; }
+
+.contact-detail span {
+  color: #678e3e;
+  letter-spacing: 4px; }
+
+.contact-detail p {
+  margin: 1rem 0;
+  width: 280px;
+  letter-spacing: 4px;
+  font-weight: bold; }
+
+.contact-form {
+  width: 50%;
+  padding: 2rem 0; }
+
+.form-wrap {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px; }
+
+.form-wrap h2 {
+  text-align: center;
+  font-size: 2.1rem;
+  letter-spacing: 4px;
+  color: #4592ad;
+  margin-bottom: 1rem; }
+
+.contact-form input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin: 1rem 0;
+  background: #f1f5f8;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 0.8rem; }
+
+input[type="button"] {
+  padding: 1rem;
+  font-weight: bold;
+  background: #678e3e;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: -0.75rem; }
+
+#footer {
+  height: 35vh;
+  background: #222;
+  color: #fff;
+  position: relative; }
+
+.footer-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.footer-center .icons i {
+  margin: 1.5rem 0.4rem;
+  font-size: 1.6rem; }
